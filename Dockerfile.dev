@@ -1,0 +1,17 @@
+FROM node:24.15.0-slim
+
+WORKDIR /app
+
+# Copiar manifiestos (ahora usando package-lock.json)
+COPY package.json package-lock.json ./
+
+# Instalar dependencias limpias para producción/desarrollo en Docker
+RUN npm ci
+
+# Copiar el resto del código
+COPY . .
+
+EXPOSE 3000
+
+# Ejecutar el script
+CMD ["npm", "run", "start:dev"]

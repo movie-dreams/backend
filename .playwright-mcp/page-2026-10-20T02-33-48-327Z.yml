@@ -1,0 +1,868 @@
+- generic [ref=f11e3]:
+  - link "Skip to operations" [ref=f11e4] [cursor=pointer]:
+    - /url: "#operations"
+  - banner [ref=f11e5]:
+    - button "Switch to dark mode" [ref=f11e45] [cursor=pointer]
+  - generic [ref=f11e49]:
+    - generic [ref=f11e53]:
+      - heading "Cinema API 0.0.1 OAS 3.0" [level=1] [ref=f11e55]:
+        - text: Cinema API
+        - generic [ref=f11e56]:
+          - generic [ref=f11e57]: 0.0.1
+          - generic [ref=f11e59]: OAS 3.0
+      - paragraph [ref=f11e63]: API del sistema de cine
+    - button "Authorize" [ref=f11e67] [cursor=pointer]
+    - main [ref=f11e71]:
+      - generic [ref=f11e74]:
+        - generic [ref=f11e76]:
+          - heading [level=3] [ref=f11e77] [cursor=pointer]:
+            - link "Personas" [ref=f11e78]:
+              - /url: "#/Personas"
+            - button "Collapse operation" [expanded] [ref=f11e79]
+          - generic [ref=f11e83]:
+            - generic [ref=f11e86] [cursor=pointer]:
+              - button "POST /api/v1/persons Registrar persona" [ref=f11e87]:
+                - generic [ref=f11e88]: POST
+                - generic [ref=f11e89]:
+                  - link "/api/v1/persons" [ref=f11e91]:
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e93]: Registrar persona
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e94]
+              - button "post /api/v1/persons" [ref=f11e98]
+            - generic [ref=f11e103] [cursor=pointer]:
+              - button "GET /api/v1/persons Listar personas" [ref=f11e104]:
+                - generic [ref=f11e105]: GET
+                - generic [ref=f11e106]:
+                  - link "/api/v1/persons" [ref=f11e108]:
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e110]: Listar personas
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e111]
+              - button "authorization button unlocked" [ref=f11e115]
+              - button "get /api/v1/persons" [ref=f11e118]
+            - generic [ref=f11e123] [cursor=pointer]:
+              - button "GET /api/v1/persons/search Buscar personas por nombres y apellidos" [ref=f11e124]:
+                - generic [ref=f11e125]: GET
+                - generic [ref=f11e126]:
+                  - link "/api/v1/persons/search" [ref=f11e128]:
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e130]: Buscar personas por nombres y apellidos
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e131]
+              - button "authorization button unlocked" [ref=f11e135]
+              - button "get /api/v1/persons/search" [ref=f11e138]
+            - generic [ref=f11e143] [cursor=pointer]:
+              - 'button "GET /api/v1/persons/{id} Obtener una persona por ID" [ref=f11e144]':
+                - generic [ref=f11e145]: GET
+                - generic [ref=f11e146]:
+                  - 'link "/api/v1/persons/{id}" [ref=f11e148]':
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e150]: Obtener una persona por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e151]
+              - button "authorization button unlocked" [ref=f11e155]
+              - 'button "get /api/v1/persons/{id}" [ref=f11e158]'
+            - generic [ref=f11e163] [cursor=pointer]:
+              - 'button "PATCH /api/v1/persons/{id} Actualizar una persona por ID" [ref=f11e164]':
+                - generic [ref=f11e165]: PATCH
+                - generic [ref=f11e166]:
+                  - 'link "/api/v1/persons/{id}" [ref=f11e168]':
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e170]: Actualizar una persona por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e171]
+              - button "authorization button unlocked" [ref=f11e175]
+              - 'button "patch /api/v1/persons/{id}" [ref=f11e178]'
+            - generic [ref=f11e183] [cursor=pointer]:
+              - 'button "DELETE /api/v1/persons/{id} Eliminar una persona por ID" [ref=f11e184]':
+                - generic [ref=f11e185]: DELETE
+                - generic [ref=f11e186]:
+                  - 'link "/api/v1/persons/{id}" [ref=f11e188]':
+                    - /url: "#/Personas/PersonController_"
+                  - generic [ref=f11e190]: Eliminar una persona por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e191]
+              - button "authorization button unlocked" [ref=f11e195]
+              - 'button "delete /api/v1/persons/{id}" [ref=f11e198]'
+        - generic [ref=f11e202]:
+          - heading [level=3] [ref=f11e203] [cursor=pointer]:
+            - link "Clientes" [ref=f11e204]:
+              - /url: "#/Clientes"
+            - button "Collapse operation" [expanded] [ref=f11e205]
+          - generic [ref=f11e209]:
+            - generic [ref=f11e212] [cursor=pointer]:
+              - button "POST /api/v1/clients Registrar cliente" [ref=f11e213]:
+                - generic [ref=f11e214]: POST
+                - generic [ref=f11e215]:
+                  - link "/api/v1/clients" [ref=f11e217]:
+                    - /url: "#/Clientes/ClientController_"
+                  - generic [ref=f11e219]: Registrar cliente
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e220]
+              - button "authorization button unlocked" [ref=f11e224]
+              - button "post /api/v1/clients" [ref=f11e227]
+            - generic [ref=f11e232] [cursor=pointer]:
+              - button "GET /api/v1/clients Listar clientes" [ref=f11e233]:
+                - generic [ref=f11e234]: GET
+                - generic [ref=f11e235]:
+                  - link "/api/v1/clients" [ref=f11e237]:
+                    - /url: "#/Clientes/ClientController_"
+                  - generic [ref=f11e239]: Listar clientes
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e240]
+              - button "authorization button unlocked" [ref=f11e244]
+              - button "get /api/v1/clients" [ref=f11e247]
+            - generic [ref=f11e252] [cursor=pointer]:
+              - 'button "GET /api/v1/clients/{id} Obtener un cliente por ID" [ref=f11e253]':
+                - generic [ref=f11e254]: GET
+                - generic [ref=f11e255]:
+                  - 'link "/api/v1/clients/{id}" [ref=f11e257]':
+                    - /url: "#/Clientes/ClientController_"
+                  - generic [ref=f11e259]: Obtener un cliente por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e260]
+              - button "authorization button unlocked" [ref=f11e264]
+              - 'button "get /api/v1/clients/{id}" [ref=f11e267]'
+            - generic [ref=f11e272] [cursor=pointer]:
+              - 'button "PATCH /api/v1/clients/{id} Actualizar un cliente por ID" [ref=f11e273]':
+                - generic [ref=f11e274]: PATCH
+                - generic [ref=f11e275]:
+                  - 'link "/api/v1/clients/{id}" [ref=f11e277]':
+                    - /url: "#/Clientes/ClientController_"
+                  - generic [ref=f11e279]: Actualizar un cliente por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e280]
+              - button "authorization button unlocked" [ref=f11e284]
+              - 'button "patch /api/v1/clients/{id}" [ref=f11e287]'
+            - generic [ref=f11e292] [cursor=pointer]:
+              - 'button "DELETE /api/v1/clients/{id} Eliminar un cliente por ID" [ref=f11e293]':
+                - generic [ref=f11e294]: DELETE
+                - generic [ref=f11e295]:
+                  - 'link "/api/v1/clients/{id}" [ref=f11e297]':
+                    - /url: "#/Clientes/ClientController_"
+                  - generic [ref=f11e299]: Eliminar un cliente por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e300]
+              - button "authorization button unlocked" [ref=f11e304]
+              - 'button "delete /api/v1/clients/{id}" [ref=f11e307]'
+        - generic [ref=f11e311]:
+          - heading [level=3] [ref=f11e312] [cursor=pointer]:
+            - link "Roles" [ref=f11e313]:
+              - /url: "#/Roles"
+            - button "Collapse operation" [expanded] [ref=f11e314]
+          - generic [ref=f11e318]:
+            - generic [ref=f11e321] [cursor=pointer]:
+              - button "POST /api/v1/roles Crear rol" [ref=f11e322]:
+                - generic [ref=f11e323]: POST
+                - generic [ref=f11e324]:
+                  - link "/api/v1/roles" [ref=f11e326]:
+                    - /url: "#/Roles/RoleController_"
+                  - generic [ref=f11e328]: Crear rol
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e329]
+              - button "authorization button unlocked" [ref=f11e333]
+              - button "post /api/v1/roles" [ref=f11e336]
+            - generic [ref=f11e341] [cursor=pointer]:
+              - button "GET /api/v1/roles Listar roles" [ref=f11e342]:
+                - generic [ref=f11e343]: GET
+                - generic [ref=f11e344]:
+                  - link "/api/v1/roles" [ref=f11e346]:
+                    - /url: "#/Roles/RoleController_"
+                  - generic [ref=f11e348]: Listar roles
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e349]
+              - button "authorization button unlocked" [ref=f11e353]
+              - button "get /api/v1/roles" [ref=f11e356]
+            - generic [ref=f11e361] [cursor=pointer]:
+              - 'button "GET /api/v1/roles/{id} Obtener un rol por ID" [ref=f11e362]':
+                - generic [ref=f11e363]: GET
+                - generic [ref=f11e364]:
+                  - 'link "/api/v1/roles/{id}" [ref=f11e366]':
+                    - /url: "#/Roles/RoleController_"
+                  - generic [ref=f11e368]: Obtener un rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e369]
+              - button "authorization button unlocked" [ref=f11e373]
+              - 'button "get /api/v1/roles/{id}" [ref=f11e376]'
+            - generic [ref=f11e381] [cursor=pointer]:
+              - 'button "PATCH /api/v1/roles/{id} Actualizar un rol por ID" [ref=f11e382]':
+                - generic [ref=f11e383]: PATCH
+                - generic [ref=f11e384]:
+                  - 'link "/api/v1/roles/{id}" [ref=f11e386]':
+                    - /url: "#/Roles/RoleController_"
+                  - generic [ref=f11e388]: Actualizar un rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e389]
+              - button "authorization button unlocked" [ref=f11e393]
+              - 'button "patch /api/v1/roles/{id}" [ref=f11e396]'
+            - generic [ref=f11e401] [cursor=pointer]:
+              - 'button "DELETE /api/v1/roles/{id} Eliminar un rol por ID" [ref=f11e402]':
+                - generic [ref=f11e403]: DELETE
+                - generic [ref=f11e404]:
+                  - 'link "/api/v1/roles/{id}" [ref=f11e406]':
+                    - /url: "#/Roles/RoleController_"
+                  - generic [ref=f11e408]: Eliminar un rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e409]
+              - button "authorization button unlocked" [ref=f11e413]
+              - 'button "delete /api/v1/roles/{id}" [ref=f11e416]'
+        - generic [ref=f11e420]:
+          - heading [level=3] [ref=f11e421] [cursor=pointer]:
+            - link "Usuarios" [ref=f11e422]:
+              - /url: "#/Usuarios"
+            - button "Collapse operation" [expanded] [ref=f11e423]
+          - generic [ref=f11e427]:
+            - generic [ref=f11e430] [cursor=pointer]:
+              - button "POST /api/v1/users Crear usuario" [ref=f11e431]:
+                - generic [ref=f11e432]: POST
+                - generic [ref=f11e433]:
+                  - link "/api/v1/users" [ref=f11e435]:
+                    - /url: "#/Usuarios/UserController_"
+                  - generic [ref=f11e437]: Crear usuario
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e438]
+              - button "authorization button unlocked" [ref=f11e442]
+              - button "post /api/v1/users" [ref=f11e445]
+            - generic [ref=f11e450] [cursor=pointer]:
+              - button "GET /api/v1/users Listar usuarios" [ref=f11e451]:
+                - generic [ref=f11e452]: GET
+                - generic [ref=f11e453]:
+                  - link "/api/v1/users" [ref=f11e455]:
+                    - /url: "#/Usuarios/UserController_"
+                  - generic [ref=f11e457]: Listar usuarios
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e458]
+              - button "authorization button unlocked" [ref=f11e462]
+              - button "get /api/v1/users" [ref=f11e465]
+            - generic [ref=f11e470] [cursor=pointer]:
+              - 'button "GET /api/v1/users/{id} Obtener un usuario por ID" [ref=f11e471]':
+                - generic [ref=f11e472]: GET
+                - generic [ref=f11e473]:
+                  - 'link "/api/v1/users/{id}" [ref=f11e475]':
+                    - /url: "#/Usuarios/UserController_"
+                  - generic [ref=f11e477]: Obtener un usuario por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e478]
+              - button "authorization button unlocked" [ref=f11e482]
+              - 'button "get /api/v1/users/{id}" [ref=f11e485]'
+            - generic [ref=f11e490] [cursor=pointer]:
+              - 'button "PATCH /api/v1/users/{id} Actualizar un usuario por ID" [ref=f11e491]':
+                - generic [ref=f11e492]: PATCH
+                - generic [ref=f11e493]:
+                  - 'link "/api/v1/users/{id}" [ref=f11e495]':
+                    - /url: "#/Usuarios/UserController_"
+                  - generic [ref=f11e497]: Actualizar un usuario por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e498]
+              - button "authorization button unlocked" [ref=f11e502]
+              - 'button "patch /api/v1/users/{id}" [ref=f11e505]'
+            - generic [ref=f11e510] [cursor=pointer]:
+              - 'button "DELETE /api/v1/users/{id} Eliminar un usuario por ID" [ref=f11e511]':
+                - generic [ref=f11e512]: DELETE
+                - generic [ref=f11e513]:
+                  - 'link "/api/v1/users/{id}" [ref=f11e515]':
+                    - /url: "#/Usuarios/UserController_"
+                  - generic [ref=f11e517]: Eliminar un usuario por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e518]
+              - button "authorization button unlocked" [ref=f11e522]
+              - 'button "delete /api/v1/users/{id}" [ref=f11e525]'
+        - generic [ref=f11e529]:
+          - heading [level=3] [ref=f11e530] [cursor=pointer]:
+            - link "Asignaciones de Rol" [ref=f11e531]:
+              - /url: "#/Asignaciones%20de%20Rol"
+            - button "Collapse operation" [expanded] [ref=f11e532]
+          - generic [ref=f11e536]:
+            - generic [ref=f11e539] [cursor=pointer]:
+              - button "POST /api/v1/user-roles Asignar rol a un usuario" [ref=f11e540]:
+                - generic [ref=f11e541]: POST
+                - generic [ref=f11e542]:
+                  - link "/api/v1/user-roles" [ref=f11e544]:
+                    - /url: "#/Asignaciones%20de%20Rol/UserRoleController_"
+                  - generic [ref=f11e546]: Asignar rol a un usuario
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e547]
+              - button "authorization button unlocked" [ref=f11e551]
+              - button "post /api/v1/user-roles" [ref=f11e554]
+            - generic [ref=f11e559] [cursor=pointer]:
+              - button "GET /api/v1/user-roles Listar asignaciones de rol" [ref=f11e560]:
+                - generic [ref=f11e561]: GET
+                - generic [ref=f11e562]:
+                  - link "/api/v1/user-roles" [ref=f11e564]:
+                    - /url: "#/Asignaciones%20de%20Rol/UserRoleController_"
+                  - generic [ref=f11e566]: Listar asignaciones de rol
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e567]
+              - button "authorization button unlocked" [ref=f11e571]
+              - button "get /api/v1/user-roles" [ref=f11e574]
+            - generic [ref=f11e579] [cursor=pointer]:
+              - 'button "GET /api/v1/user-roles/{id} Obtener una asignación de rol por ID" [ref=f11e580]':
+                - generic [ref=f11e581]: GET
+                - generic [ref=f11e582]:
+                  - 'link "/api/v1/user-roles/{id}" [ref=f11e584]':
+                    - /url: "#/Asignaciones%20de%20Rol/UserRoleController_"
+                  - generic [ref=f11e586]: Obtener una asignación de rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e587]
+              - button "authorization button unlocked" [ref=f11e591]
+              - 'button "get /api/v1/user-roles/{id}" [ref=f11e594]'
+            - generic [ref=f11e599] [cursor=pointer]:
+              - 'button "PATCH /api/v1/user-roles/{id} Actualizar una asignación de rol por ID" [ref=f11e600]':
+                - generic [ref=f11e601]: PATCH
+                - generic [ref=f11e602]:
+                  - 'link "/api/v1/user-roles/{id}" [ref=f11e604]':
+                    - /url: "#/Asignaciones%20de%20Rol/UserRoleController_"
+                  - generic [ref=f11e606]: Actualizar una asignación de rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e607]
+              - button "authorization button unlocked" [ref=f11e611]
+              - 'button "patch /api/v1/user-roles/{id}" [ref=f11e614]'
+            - generic [ref=f11e619] [cursor=pointer]:
+              - 'button "DELETE /api/v1/user-roles/{id} Eliminar una asignación de rol por ID" [ref=f11e620]':
+                - generic [ref=f11e621]: DELETE
+                - generic [ref=f11e622]:
+                  - 'link "/api/v1/user-roles/{id}" [ref=f11e624]':
+                    - /url: "#/Asignaciones%20de%20Rol/UserRoleController_"
+                  - generic [ref=f11e626]: Eliminar una asignación de rol por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e627]
+              - button "authorization button unlocked" [ref=f11e631]
+              - 'button "delete /api/v1/user-roles/{id}" [ref=f11e634]'
+        - generic [ref=f11e638]:
+          - heading [level=3] [ref=f11e639] [cursor=pointer]:
+            - link "Autenticación" [ref=f11e640]:
+              - /url: "#/Autenticación"
+            - button "Collapse operation" [expanded] [ref=f11e641]
+          - generic [ref=f11e645]:
+            - generic [ref=f11e648] [cursor=pointer]:
+              - button "POST /api/v1/auth/login Iniciar sesión" [ref=f11e649]:
+                - generic [ref=f11e650]: POST
+                - generic [ref=f11e651]:
+                  - link "/api/v1/auth/login" [ref=f11e653]:
+                    - /url: "#/Autenticación/AuthController_"
+                  - generic [ref=f11e655]: Iniciar sesión
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e656]
+              - button "post /api/v1/auth/login" [ref=f11e660]
+            - generic [ref=f11e665] [cursor=pointer]:
+              - button "GET /api/v1/auth/me Obtener usuario autenticado" [ref=f11e666]:
+                - generic [ref=f11e667]: GET
+                - generic [ref=f11e668]:
+                  - link "/api/v1/auth/me" [ref=f11e670]:
+                    - /url: "#/Autenticación/AuthController_"
+                  - generic [ref=f11e672]: Obtener usuario autenticado
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e673]
+              - button "authorization button unlocked" [ref=f11e677]
+              - button "get /api/v1/auth/me" [ref=f11e680]
+        - generic [ref=f11e684]:
+          - heading [level=3] [ref=f11e685] [cursor=pointer]:
+            - link "Películas" [ref=f11e686]:
+              - /url: "#/Películas"
+            - button "Collapse operation" [expanded] [ref=f11e687]
+          - generic [ref=f11e691]:
+            - generic [ref=f11e694] [cursor=pointer]:
+              - button "POST /api/v1/movies Registrar película" [ref=f11e695]:
+                - generic [ref=f11e696]: POST
+                - generic [ref=f11e697]:
+                  - link "/api/v1/movies" [ref=f11e699]:
+                    - /url: "#/Películas/MovieController_"
+                  - generic [ref=f11e701]: Registrar película
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e702]
+              - button "authorization button unlocked" [ref=f11e706]
+              - button "post /api/v1/movies" [ref=f11e709]
+            - generic [ref=f11e714] [cursor=pointer]:
+              - button "GET /api/v1/movies Listar películas" [ref=f11e715]:
+                - generic [ref=f11e716]: GET
+                - generic [ref=f11e717]:
+                  - link "/api/v1/movies" [ref=f11e719]:
+                    - /url: "#/Películas/MovieController_"
+                  - generic [ref=f11e721]: Listar películas
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e722]
+              - button "get /api/v1/movies" [ref=f11e726]
+            - generic [ref=f11e731] [cursor=pointer]:
+              - 'button "GET /api/v1/movies/{id} Obtener una película por ID" [ref=f11e732]':
+                - generic [ref=f11e733]: GET
+                - generic [ref=f11e734]:
+                  - 'link "/api/v1/movies/{id}" [ref=f11e736]':
+                    - /url: "#/Películas/MovieController_"
+                  - generic [ref=f11e738]: Obtener una película por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e739]
+              - 'button "get /api/v1/movies/{id}" [ref=f11e743]'
+            - generic [ref=f11e748] [cursor=pointer]:
+              - 'button "PATCH /api/v1/movies/{id} Actualizar una película por ID" [ref=f11e749]':
+                - generic [ref=f11e750]: PATCH
+                - generic [ref=f11e751]:
+                  - 'link "/api/v1/movies/{id}" [ref=f11e753]':
+                    - /url: "#/Películas/MovieController_"
+                  - generic [ref=f11e755]: Actualizar una película por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e756]
+              - button "authorization button unlocked" [ref=f11e760]
+              - 'button "patch /api/v1/movies/{id}" [ref=f11e763]'
+            - generic [ref=f11e768] [cursor=pointer]:
+              - 'button "DELETE /api/v1/movies/{id} Eliminar una película por ID" [ref=f11e769]':
+                - generic [ref=f11e770]: DELETE
+                - generic [ref=f11e771]:
+                  - 'link "/api/v1/movies/{id}" [ref=f11e773]':
+                    - /url: "#/Películas/MovieController_"
+                  - generic [ref=f11e775]: Eliminar una película por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e776]
+              - button "authorization button unlocked" [ref=f11e780]
+              - 'button "delete /api/v1/movies/{id}" [ref=f11e783]'
+        - generic [ref=f11e787]:
+          - heading [level=3] [ref=f11e788] [cursor=pointer]:
+            - link "Salas" [ref=f11e789]:
+              - /url: "#/Salas"
+            - button "Collapse operation" [expanded] [ref=f11e790]
+          - generic [ref=f11e794]:
+            - generic [ref=f11e797] [cursor=pointer]:
+              - button "POST /api/v1/rooms Registrar sala" [ref=f11e798]:
+                - generic [ref=f11e799]: POST
+                - generic [ref=f11e800]:
+                  - link "/api/v1/rooms" [ref=f11e802]:
+                    - /url: "#/Salas/RoomController_"
+                  - generic [ref=f11e804]: Registrar sala
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e805]
+              - button "authorization button unlocked" [ref=f11e809]
+              - button "post /api/v1/rooms" [ref=f11e812]
+            - generic [ref=f11e817] [cursor=pointer]:
+              - button "GET /api/v1/rooms Listar salas" [ref=f11e818]:
+                - generic [ref=f11e819]: GET
+                - generic [ref=f11e820]:
+                  - link "/api/v1/rooms" [ref=f11e822]:
+                    - /url: "#/Salas/RoomController_"
+                  - generic [ref=f11e824]: Listar salas
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e825]
+              - button "get /api/v1/rooms" [ref=f11e829]
+            - generic [ref=f11e834] [cursor=pointer]:
+              - 'button "GET /api/v1/rooms/{id} Obtener una sala por ID" [ref=f11e835]':
+                - generic [ref=f11e836]: GET
+                - generic [ref=f11e837]:
+                  - 'link "/api/v1/rooms/{id}" [ref=f11e839]':
+                    - /url: "#/Salas/RoomController_"
+                  - generic [ref=f11e841]: Obtener una sala por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e842]
+              - 'button "get /api/v1/rooms/{id}" [ref=f11e846]'
+            - generic [ref=f11e851] [cursor=pointer]:
+              - 'button "PATCH /api/v1/rooms/{id} Actualizar una sala por ID" [ref=f11e852]':
+                - generic [ref=f11e853]: PATCH
+                - generic [ref=f11e854]:
+                  - 'link "/api/v1/rooms/{id}" [ref=f11e856]':
+                    - /url: "#/Salas/RoomController_"
+                  - generic [ref=f11e858]: Actualizar una sala por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e859]
+              - button "authorization button unlocked" [ref=f11e863]
+              - 'button "patch /api/v1/rooms/{id}" [ref=f11e866]'
+            - generic [ref=f11e871] [cursor=pointer]:
+              - 'button "DELETE /api/v1/rooms/{id} Eliminar una sala por ID" [ref=f11e872]':
+                - generic [ref=f11e873]: DELETE
+                - generic [ref=f11e874]:
+                  - 'link "/api/v1/rooms/{id}" [ref=f11e876]':
+                    - /url: "#/Salas/RoomController_"
+                  - generic [ref=f11e878]: Eliminar una sala por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e879]
+              - button "authorization button unlocked" [ref=f11e883]
+              - 'button "delete /api/v1/rooms/{id}" [ref=f11e886]'
+        - generic [ref=f11e890]:
+          - heading [level=3] [ref=f11e891] [cursor=pointer]:
+            - link "Asientos" [ref=f11e892]:
+              - /url: "#/Asientos"
+            - button "Collapse operation" [expanded] [ref=f11e893]
+          - generic [ref=f11e897]:
+            - generic [ref=f11e900] [cursor=pointer]:
+              - button "POST /api/v1/seats Registrar asiento" [ref=f11e901]:
+                - generic [ref=f11e902]: POST
+                - generic [ref=f11e903]:
+                  - link "/api/v1/seats" [ref=f11e905]:
+                    - /url: "#/Asientos/SeatController_"
+                  - generic [ref=f11e907]: Registrar asiento
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e908]
+              - button "authorization button unlocked" [ref=f11e912]
+              - button "post /api/v1/seats" [ref=f11e915]
+            - generic [ref=f11e920] [cursor=pointer]:
+              - button "GET /api/v1/seats Listar asientos" [ref=f11e921]:
+                - generic [ref=f11e922]: GET
+                - generic [ref=f11e923]:
+                  - link "/api/v1/seats" [ref=f11e925]:
+                    - /url: "#/Asientos/SeatController_"
+                  - generic [ref=f11e927]: Listar asientos
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e928]
+              - button "get /api/v1/seats" [ref=f11e932]
+            - generic [ref=f11e937] [cursor=pointer]:
+              - 'button "GET /api/v1/seats/{id} Obtener un asiento por ID" [ref=f11e938]':
+                - generic [ref=f11e939]: GET
+                - generic [ref=f11e940]:
+                  - 'link "/api/v1/seats/{id}" [ref=f11e942]':
+                    - /url: "#/Asientos/SeatController_"
+                  - generic [ref=f11e944]: Obtener un asiento por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e945]
+              - 'button "get /api/v1/seats/{id}" [ref=f11e949]'
+            - generic [ref=f11e954] [cursor=pointer]:
+              - 'button "PATCH /api/v1/seats/{id} Actualizar un asiento por ID" [ref=f11e955]':
+                - generic [ref=f11e956]: PATCH
+                - generic [ref=f11e957]:
+                  - 'link "/api/v1/seats/{id}" [ref=f11e959]':
+                    - /url: "#/Asientos/SeatController_"
+                  - generic [ref=f11e961]: Actualizar un asiento por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e962]
+              - button "authorization button unlocked" [ref=f11e966]
+              - 'button "patch /api/v1/seats/{id}" [ref=f11e969]'
+            - generic [ref=f11e974] [cursor=pointer]:
+              - 'button "DELETE /api/v1/seats/{id} Eliminar un asiento por ID" [ref=f11e975]':
+                - generic [ref=f11e976]: DELETE
+                - generic [ref=f11e977]:
+                  - 'link "/api/v1/seats/{id}" [ref=f11e979]':
+                    - /url: "#/Asientos/SeatController_"
+                  - generic [ref=f11e981]: Eliminar un asiento por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e982]
+              - button "authorization button unlocked" [ref=f11e986]
+              - 'button "delete /api/v1/seats/{id}" [ref=f11e989]'
+        - generic [ref=f11e993]:
+          - heading [level=3] [ref=f11e994] [cursor=pointer]:
+            - link "Funciones" [ref=f11e995]:
+              - /url: "#/Funciones"
+            - button "Collapse operation" [expanded] [ref=f11e996]
+          - generic [ref=f11e1000]:
+            - generic [ref=f11e1003] [cursor=pointer]:
+              - button "POST /api/v1/showtimes Registrar función" [ref=f11e1004]:
+                - generic [ref=f11e1005]: POST
+                - generic [ref=f11e1006]:
+                  - link "/api/v1/showtimes" [ref=f11e1008]:
+                    - /url: "#/Funciones/ShowtimeController_"
+                  - generic [ref=f11e1010]: Registrar función
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1011]
+              - button "authorization button unlocked" [ref=f11e1015]
+              - button "post /api/v1/showtimes" [ref=f11e1018]
+            - generic [ref=f11e1023] [cursor=pointer]:
+              - button "GET /api/v1/showtimes Listar funciones" [ref=f11e1024]:
+                - generic [ref=f11e1025]: GET
+                - generic [ref=f11e1026]:
+                  - link "/api/v1/showtimes" [ref=f11e1028]:
+                    - /url: "#/Funciones/ShowtimeController_"
+                  - generic [ref=f11e1030]: Listar funciones
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1031]
+              - button "get /api/v1/showtimes" [ref=f11e1035]
+            - generic [ref=f11e1040] [cursor=pointer]:
+              - 'button "GET /api/v1/showtimes/{id} Obtener una función por ID" [ref=f11e1041]':
+                - generic [ref=f11e1042]: GET
+                - generic [ref=f11e1043]:
+                  - 'link "/api/v1/showtimes/{id}" [ref=f11e1045]':
+                    - /url: "#/Funciones/ShowtimeController_"
+                  - generic [ref=f11e1047]: Obtener una función por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1048]
+              - 'button "get /api/v1/showtimes/{id}" [ref=f11e1052]'
+            - generic [ref=f11e1057] [cursor=pointer]:
+              - 'button "PATCH /api/v1/showtimes/{id} Actualizar una función por ID" [ref=f11e1058]':
+                - generic [ref=f11e1059]: PATCH
+                - generic [ref=f11e1060]:
+                  - 'link "/api/v1/showtimes/{id}" [ref=f11e1062]':
+                    - /url: "#/Funciones/ShowtimeController_"
+                  - generic [ref=f11e1064]: Actualizar una función por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1065]
+              - button "authorization button unlocked" [ref=f11e1069]
+              - 'button "patch /api/v1/showtimes/{id}" [ref=f11e1072]'
+            - generic [ref=f11e1077] [cursor=pointer]:
+              - 'button "DELETE /api/v1/showtimes/{id} Eliminar una función por ID" [ref=f11e1078]':
+                - generic [ref=f11e1079]: DELETE
+                - generic [ref=f11e1080]:
+                  - 'link "/api/v1/showtimes/{id}" [ref=f11e1082]':
+                    - /url: "#/Funciones/ShowtimeController_"
+                  - generic [ref=f11e1084]: Eliminar una función por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1085]
+              - button "authorization button unlocked" [ref=f11e1089]
+              - 'button "delete /api/v1/showtimes/{id}" [ref=f11e1092]'
+        - generic [ref=f11e1096]:
+          - heading [level=3] [ref=f11e1097] [cursor=pointer]:
+            - link "Cartelera" [ref=f11e1098]:
+              - /url: "#/Cartelera"
+            - button "Collapse operation" [expanded] [ref=f11e1099]
+          - generic [ref=f11e1103]:
+            - generic [ref=f11e1106] [cursor=pointer]:
+              - button "GET /api/v1/billboard/rooms Listar salas" [ref=f11e1107]:
+                - generic [ref=f11e1108]: GET
+                - generic [ref=f11e1109]:
+                  - link "/api/v1/billboard/rooms" [ref=f11e1111]:
+                    - /url: "#/Cartelera/BillboardController_"
+                  - generic [ref=f11e1113]: Listar salas
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1114]
+              - button "get /api/v1/billboard/rooms" [ref=f11e1118]
+            - generic [ref=f11e1123] [cursor=pointer]:
+              - button "GET /api/v1/billboard/rooms/summary Verificar capacidad y cantidad de asientos por sala" [ref=f11e1124]:
+                - generic [ref=f11e1125]: GET
+                - generic [ref=f11e1126]:
+                  - link "/api/v1/billboard/rooms/summary" [ref=f11e1128]:
+                    - /url: "#/Cartelera/BillboardController_"
+                  - generic [ref=f11e1130]: Verificar capacidad y cantidad de asientos por sala
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1131]
+              - button "get /api/v1/billboard/rooms/summary" [ref=f11e1135]
+            - generic [ref=f11e1140] [cursor=pointer]:
+              - button "GET /api/v1/billboard/seats Listar asientos, opcionalmente filtrados por sala" [ref=f11e1141]:
+                - generic [ref=f11e1142]: GET
+                - generic [ref=f11e1143]:
+                  - link "/api/v1/billboard/seats" [ref=f11e1145]:
+                    - /url: "#/Cartelera/BillboardController_"
+                  - generic [ref=f11e1147]: Listar asientos, opcionalmente filtrados por sala
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1148]
+              - button "get /api/v1/billboard/seats" [ref=f11e1152]
+            - generic [ref=f11e1157] [cursor=pointer]:
+              - button "GET /api/v1/billboard/showtimes Listar funciones con película, sala, horario y precio" [ref=f11e1158]:
+                - generic [ref=f11e1159]: GET
+                - generic [ref=f11e1160]:
+                  - link "/api/v1/billboard/showtimes" [ref=f11e1162]:
+                    - /url: "#/Cartelera/BillboardController_"
+                  - generic [ref=f11e1164]: Listar funciones con película, sala, horario y precio
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1165]
+              - button "get /api/v1/billboard/showtimes" [ref=f11e1169]
+            - generic [ref=f11e1174] [cursor=pointer]:
+              - 'button "GET /api/v1/billboard/showtimes/{id}/seats Consultar disponibilidad de asientos para una función" [ref=f11e1175]':
+                - generic [ref=f11e1176]: GET
+                - generic [ref=f11e1177]:
+                  - 'link "/api/v1/billboard/showtimes/{id}/seats" [ref=f11e1179]':
+                    - /url: "#/Cartelera/BillboardController_"
+                  - generic [ref=f11e1181]: Consultar disponibilidad de asientos para una función
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1182]
+              - 'button "get /api/v1/billboard/showtimes/{id}/seats" [ref=f11e1186]'
+        - generic [ref=f11e1190]:
+          - heading [level=3] [ref=f11e1191] [cursor=pointer]:
+            - link "Archivos" [ref=f11e1192]:
+              - /url: "#/Archivos"
+            - button "Collapse operation" [expanded] [ref=f11e1193]
+          - generic [ref=f11e1200] [cursor=pointer]:
+            - 'button "GET /api/v1/files/movies/{fileName} Obtener imagen de película" [ref=f11e1201]':
+              - generic [ref=f11e1202]: GET
+              - generic [ref=f11e1203]:
+                - 'link "/api/v1/files/movies/{fileName}" [ref=f11e1205]':
+                  - /url: "#/Archivos/FilesController_"
+                - generic [ref=f11e1207]: Obtener imagen de película
+            - generic "Copy path to clipboard":
+              - button "Copy path to clipboard" [ref=f11e1208]
+            - 'button "get /api/v1/files/movies/{fileName}" [ref=f11e1212]'
+        - generic [ref=f11e1216]:
+          - heading [level=3] [ref=f11e1217] [cursor=pointer]:
+            - link "Reservas" [ref=f11e1218]:
+              - /url: "#/Reservas"
+            - button "Collapse operation" [expanded] [ref=f11e1219]
+          - generic [ref=f11e1223]:
+            - generic [ref=f11e1226] [cursor=pointer]:
+              - button "POST /api/v1/reservations Crear reserva" [ref=f11e1227]:
+                - generic [ref=f11e1228]: POST
+                - generic [ref=f11e1229]:
+                  - link "/api/v1/reservations" [ref=f11e1231]:
+                    - /url: "#/Reservas/ReservationController_"
+                  - generic [ref=f11e1233]: Crear reserva
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1234]
+              - button "authorization button unlocked" [ref=f11e1238]
+              - button "post /api/v1/reservations" [ref=f11e1241]
+            - generic [ref=f11e1246] [cursor=pointer]:
+              - button "GET /api/v1/reservations Listar reservas" [ref=f11e1247]:
+                - generic [ref=f11e1248]: GET
+                - generic [ref=f11e1249]:
+                  - link "/api/v1/reservations" [ref=f11e1251]:
+                    - /url: "#/Reservas/ReservationController_"
+                  - generic [ref=f11e1253]: Listar reservas
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1254]
+              - button "authorization button unlocked" [ref=f11e1258]
+              - button "get /api/v1/reservations" [ref=f11e1261]
+            - generic [ref=f11e1266] [cursor=pointer]:
+              - 'button "GET /api/v1/reservations/{id} Obtener una reserva por ID" [ref=f11e1267]':
+                - generic [ref=f11e1268]: GET
+                - generic [ref=f11e1269]:
+                  - 'link "/api/v1/reservations/{id}" [ref=f11e1271]':
+                    - /url: "#/Reservas/ReservationController_"
+                  - generic [ref=f11e1273]: Obtener una reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1274]
+              - button "authorization button unlocked" [ref=f11e1278]
+              - 'button "get /api/v1/reservations/{id}" [ref=f11e1281]'
+            - generic [ref=f11e1286] [cursor=pointer]:
+              - 'button "PATCH /api/v1/reservations/{id} Actualizar una reserva por ID" [ref=f11e1287]':
+                - generic [ref=f11e1288]: PATCH
+                - generic [ref=f11e1289]:
+                  - 'link "/api/v1/reservations/{id}" [ref=f11e1291]':
+                    - /url: "#/Reservas/ReservationController_"
+                  - generic [ref=f11e1293]: Actualizar una reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1294]
+              - button "authorization button unlocked" [ref=f11e1298]
+              - 'button "patch /api/v1/reservations/{id}" [ref=f11e1301]'
+            - generic [ref=f11e1306] [cursor=pointer]:
+              - 'button "DELETE /api/v1/reservations/{id} Eliminar una reserva por ID" [ref=f11e1307]':
+                - generic [ref=f11e1308]: DELETE
+                - generic [ref=f11e1309]:
+                  - 'link "/api/v1/reservations/{id}" [ref=f11e1311]':
+                    - /url: "#/Reservas/ReservationController_"
+                  - generic [ref=f11e1313]: Eliminar una reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1314]
+              - button "authorization button unlocked" [ref=f11e1318]
+              - 'button "delete /api/v1/reservations/{id}" [ref=f11e1321]'
+        - generic [ref=f11e1325]:
+          - heading [level=3] [ref=f11e1326] [cursor=pointer]:
+            - link "Detalles de Reserva" [ref=f11e1327]:
+              - /url: "#/Detalles%20de%20Reserva"
+            - button "Collapse operation" [expanded] [ref=f11e1328]
+          - generic [ref=f11e1332]:
+            - generic [ref=f11e1335] [cursor=pointer]:
+              - button "POST /api/v1/reservation-details Registrar detalle de reserva" [ref=f11e1336]:
+                - generic [ref=f11e1337]: POST
+                - generic [ref=f11e1338]:
+                  - link "/api/v1/reservation-details" [ref=f11e1340]:
+                    - /url: "#/Detalles%20de%20Reserva/ReservationDetailController_create"
+                  - generic [ref=f11e1342]: Registrar detalle de reserva
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1343]
+              - button "post /api/v1/reservation-details" [ref=f11e1347]
+            - generic [ref=f11e1352] [cursor=pointer]:
+              - button "GET /api/v1/reservation-details Listar detalles de reserva" [ref=f11e1353]:
+                - generic [ref=f11e1354]: GET
+                - generic [ref=f11e1355]:
+                  - link "/api/v1/reservation-details" [ref=f11e1357]:
+                    - /url: "#/Detalles%20de%20Reserva/ReservationDetailController_findAll"
+                  - generic [ref=f11e1359]: Listar detalles de reserva
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1360]
+              - button "get /api/v1/reservation-details" [ref=f11e1364]
+            - generic [ref=f11e1369] [cursor=pointer]:
+              - 'button "GET /api/v1/reservation-details/{id} Obtener un detalle de reserva por ID" [ref=f11e1370]':
+                - generic [ref=f11e1371]: GET
+                - generic [ref=f11e1372]:
+                  - 'link "/api/v1/reservation-details/{id}" [ref=f11e1374]':
+                    - /url: "#/Detalles%20de%20Reserva/ReservationDetailController_findOne"
+                  - generic [ref=f11e1376]: Obtener un detalle de reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1377]
+              - 'button "get /api/v1/reservation-details/{id}" [ref=f11e1381]'
+            - generic [ref=f11e1386] [cursor=pointer]:
+              - 'button "PATCH /api/v1/reservation-details/{id} Actualizar un detalle de reserva por ID" [ref=f11e1387]':
+                - generic [ref=f11e1388]: PATCH
+                - generic [ref=f11e1389]:
+                  - 'link "/api/v1/reservation-details/{id}" [ref=f11e1391]':
+                    - /url: "#/Detalles%20de%20Reserva/ReservationDetailController_update"
+                  - generic [ref=f11e1393]: Actualizar un detalle de reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1394]
+              - 'button "patch /api/v1/reservation-details/{id}" [ref=f11e1398]'
+            - generic [ref=f11e1403] [cursor=pointer]:
+              - 'button "DELETE /api/v1/reservation-details/{id} Eliminar un detalle de reserva por ID" [ref=f11e1404]':
+                - generic [ref=f11e1405]: DELETE
+                - generic [ref=f11e1406]:
+                  - 'link "/api/v1/reservation-details/{id}" [ref=f11e1408]':
+                    - /url: "#/Detalles%20de%20Reserva/ReservationDetailController_remove"
+                  - generic [ref=f11e1410]: Eliminar un detalle de reserva por ID
+              - generic "Copy path to clipboard":
+                - button "Copy path to clipboard" [ref=f11e1411]
+              - 'button "delete /api/v1/reservation-details/{id}" [ref=f11e1415]'
+      - generic [ref=f11e1420]:
+        - heading [level=4] [ref=f11e1421] [cursor=pointer]:
+          - button "Schemas" [expanded] [ref=f11e1422]
+        - generic [ref=f11e1426]:
+          - button "Person" [ref=f11e1429] [cursor=pointer]:
+            - strong [ref=f11e1432]: Person
+          - button "CreatePersonDto" [ref=f11e1436] [cursor=pointer]:
+            - strong [ref=f11e1439]: CreatePersonDto
+          - button "UpdatePersonDto" [ref=f11e1443] [cursor=pointer]:
+            - strong [ref=f11e1446]: UpdatePersonDto
+          - button "ClientResponseDto" [ref=f11e1450] [cursor=pointer]:
+            - strong [ref=f11e1453]: ClientResponseDto
+          - button "CreateClientDto" [ref=f11e1457] [cursor=pointer]:
+            - strong [ref=f11e1460]: CreateClientDto
+          - button "UpdateClientDto" [ref=f11e1464] [cursor=pointer]:
+            - strong [ref=f11e1467]: UpdateClientDto
+          - button "RoleResponseDto" [ref=f11e1471] [cursor=pointer]:
+            - strong [ref=f11e1474]: RoleResponseDto
+          - button "CreateRoleDto" [ref=f11e1478] [cursor=pointer]:
+            - strong [ref=f11e1481]: CreateRoleDto
+          - button "UpdateRoleDto" [ref=f11e1485] [cursor=pointer]:
+            - strong [ref=f11e1488]: UpdateRoleDto
+          - button "UserResponseDto" [ref=f11e1492] [cursor=pointer]:
+            - strong [ref=f11e1495]: UserResponseDto
+          - button "CreateUserDto" [ref=f11e1499] [cursor=pointer]:
+            - strong [ref=f11e1502]: CreateUserDto
+          - button "UpdateUserDto" [ref=f11e1506] [cursor=pointer]:
+            - strong [ref=f11e1509]: UpdateUserDto
+          - button "UserRoleResponseDto" [ref=f11e1513] [cursor=pointer]:
+            - strong [ref=f11e1516]: UserRoleResponseDto
+          - button "CreateUserRoleDto" [ref=f11e1520] [cursor=pointer]:
+            - strong [ref=f11e1523]: CreateUserRoleDto
+          - button "UpdateUserRoleDto" [ref=f11e1527] [cursor=pointer]:
+            - strong [ref=f11e1530]: UpdateUserRoleDto
+          - button "TokenResponseDto" [ref=f11e1534] [cursor=pointer]:
+            - strong [ref=f11e1537]: TokenResponseDto
+          - button "LoginDto" [ref=f11e1541] [cursor=pointer]:
+            - strong [ref=f11e1544]: LoginDto
+          - button "AuthenticatedUserDto" [ref=f11e1548] [cursor=pointer]:
+            - strong [ref=f11e1551]: AuthenticatedUserDto
+          - button "CreateMovieDto" [ref=f11e1555] [cursor=pointer]:
+            - strong [ref=f11e1558]: CreateMovieDto
+          - button "MovieImageResponseDto" [ref=f11e1562] [cursor=pointer]:
+            - strong [ref=f11e1565]: MovieImageResponseDto
+          - button "MovieResponseDto" [ref=f11e1569] [cursor=pointer]:
+            - strong [ref=f11e1572]: MovieResponseDto
+          - button "MovieListedDto" [ref=f11e1576] [cursor=pointer]:
+            - strong [ref=f11e1579]: MovieListedDto
+          - button "UpdateMovieDto" [ref=f11e1583] [cursor=pointer]:
+            - strong [ref=f11e1586]: UpdateMovieDto
+          - button "RoomResponseDto" [ref=f11e1590] [cursor=pointer]:
+            - strong [ref=f11e1593]: RoomResponseDto
+          - button "CreateRoomDto" [ref=f11e1597] [cursor=pointer]:
+            - strong [ref=f11e1600]: CreateRoomDto
+          - button "UpdateRoomDto" [ref=f11e1604] [cursor=pointer]:
+            - strong [ref=f11e1607]: UpdateRoomDto
+          - button "SeatResponseDto" [ref=f11e1611] [cursor=pointer]:
+            - strong [ref=f11e1614]: SeatResponseDto
+          - button "CreateSeatDto" [ref=f11e1618] [cursor=pointer]:
+            - strong [ref=f11e1621]: CreateSeatDto
+          - button "UpdateSeatDto" [ref=f11e1625] [cursor=pointer]:
+            - strong [ref=f11e1628]: UpdateSeatDto
+          - button "ShowtimeCreatedDto" [ref=f11e1632] [cursor=pointer]:
+            - strong [ref=f11e1635]: ShowtimeCreatedDto
+          - button "CreateShowtimeDto" [ref=f11e1639] [cursor=pointer]:
+            - strong [ref=f11e1642]: CreateShowtimeDto
+          - button "UpdateShowtimeDto" [ref=f11e1646] [cursor=pointer]:
+            - strong [ref=f11e1649]: UpdateShowtimeDto
+          - button "RoomCarteleraDto" [ref=f11e1653] [cursor=pointer]:
+            - strong [ref=f11e1656]: RoomCarteleraDto
+          - button "RoomSummaryDto" [ref=f11e1660] [cursor=pointer]:
+            - strong [ref=f11e1663]: RoomSummaryDto
+          - button "SeatCarteleraDto" [ref=f11e1667] [cursor=pointer]:
+            - strong [ref=f11e1670]: SeatCarteleraDto
+          - button "ShowtimeCarteleraDto" [ref=f11e1674] [cursor=pointer]:
+            - strong [ref=f11e1677]: ShowtimeCarteleraDto
+          - button "ReservationDetailResponseDto" [ref=f11e1681] [cursor=pointer]:
+            - strong [ref=f11e1684]: ReservationDetailResponseDto
+          - button "ReservationResponseDto" [ref=f11e1688] [cursor=pointer]:
+            - strong [ref=f11e1691]: ReservationResponseDto
+          - button "ReservationCreatedDto" [ref=f11e1695] [cursor=pointer]:
+            - strong [ref=f11e1698]: ReservationCreatedDto
+          - button "CreateReservationDetailDto" [ref=f11e1702] [cursor=pointer]:
+            - strong [ref=f11e1705]: CreateReservationDetailDto
+          - button "UpdateReservationDetailDto" [ref=f11e1709] [cursor=pointer]:
+            - strong [ref=f11e1712]: UpdateReservationDetailDto

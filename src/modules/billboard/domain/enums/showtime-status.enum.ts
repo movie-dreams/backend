@@ -1,0 +1,5 @@
+export enum ShowtimeStatus {
+  PROGRAMADA = 'PROGRAMADA',
+  CANCELADA = 'CANCELADA',
+  FINALIZADA = 'FINALIZADA',
+}
